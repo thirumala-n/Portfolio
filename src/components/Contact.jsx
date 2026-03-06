@@ -64,7 +64,7 @@ function Contact() {
               <div className="info-icon">📍</div>
               <div>
                 <h3>Location</h3>
-                <p>Bengaluru, India</p>
+                <p>kurnool, India</p>
               </div>
             </div>
 

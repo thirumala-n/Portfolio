@@ -14,8 +14,8 @@ function Hero() {
         </p>
 
         <p className="hero-description">
-          Detail-oriented Java developer with a strong interest in backend development and a solid foundation in programming concepts. Actively learning and building projects while adapting quickly to new technologies and contributing effectively in team environments.
-        </p>
+          Passionate full-stack developer with a strong foundation in programming and experience building web applications using both frontend and backend technologies. Continuously learning, developing projects, and adapting to new technologies while collaborating effectively in team environments.
+          </p>
 
         <div className="hero-buttons">
           <button
@@ -40,7 +40,7 @@ function Hero() {
             Contact Me
           </button>
 
-          <a href="#" className="btn secondary">
+          <a href={`${import.meta.env.BASE_URL}resume.pdf`} target="_blank" rel="noreferrer" className="btn secondary">
             <Download size={18} />
             Resume
           </a>
@@ -67,3 +67,4 @@ function Hero() {
 }
 
 export default Hero;
+

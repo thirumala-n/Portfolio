@@ -19,7 +19,14 @@ function Navbar({ theme, toggleTheme }) {
     setIsOpen(false);
   };
 
-  const navLinks = ["Home", "Skills", "Projects", "Education", "Certificates", "Contact"];
+  const navLinks = [
+    { label: "Home", id: "hero" },
+    { label: "Skills", id: "skills" },
+    { label: "Projects", id: "projects" },
+    { label: "Education", id: "education" },
+    { label: "Certificates", id: "certificates" },
+    { label: "Contact", id: "contact" },
+  ];
 
   return (
     <nav className={`navbar ${theme} ${scrolled ? "scrolled" : ""}`}>
@@ -33,8 +40,8 @@ function Navbar({ theme, toggleTheme }) {
           {/* Desktop links (RIGHT) */}
           <div className="nav-links">
             {navLinks.map((link) => (
-              <button key={link} onClick={() => scrollToSection(link)}>
-                {link}
+              <button key={link.id} onClick={() => scrollToSection(link.id)}>
+                {link.label}
               </button>
             ))}
             <button className="theme-btn" onClick={toggleTheme}>
@@ -52,8 +59,8 @@ function Navbar({ theme, toggleTheme }) {
         {isOpen && (
           <div className="mobile-menu">
             {navLinks.map((link) => (
-              <button key={link} onClick={() => scrollToSection(link)}>
-                {link}
+              <button key={link.id} onClick={() => scrollToSection(link.id)}>
+                {link.label}
               </button>
             ))}
             <button onClick={toggleTheme}>

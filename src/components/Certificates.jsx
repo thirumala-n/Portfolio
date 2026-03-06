@@ -1,43 +1,11 @@
 import { useState } from "react";
 import { Search } from "lucide-react";
 import CertificateCard from "./CertificateCard";
+import { certificates as certificatesData } from "../data/certificates";
 import "../styles/Certificates.css";
 
 function Certificates() {
   const [searchTerm, setSearchTerm] = useState("");
-
- const certificatesData = [
-  {
-    name: "Modern Programming in C++",
-    issuer: "NPTEL",
-    date: "Oct 2024",
-    link: "#",
-  },
-  {
-    name: "Internet of Things",
-    issuer: "NPTEL",
-    date: "Apr 2024",
-    link: "#",
-  },
-  {
-    name: "Soft Skills",
-    issuer: "NPTEL",
-    date: "Oct 2023",
-    link: "#",
-  },
-  {
-    name: "Azure AI Fundamentals (AI-900)",
-    issuer: "Microsoft Azure",
-    date: "Mar 2024",
-    link: "#",
-  },
-  {
-    name: "Artificial Intelligence & Machine Learning Internship",
-    issuer: "APSCHE & SmartBridge",
-    date: "Jul 2025",
-    link: "/certificates/aiml-internship.pdf",
-  },
-];
 
   const filteredCertificates = certificatesData.filter(
     (cert) =>
@@ -64,8 +32,8 @@ function Certificates() {
         </div>
 
         <div className="certificates-grid">
-          {filteredCertificates.map((cert, index) => (
-            <CertificateCard key={index} {...cert} />
+          {filteredCertificates.map((cert) => (
+            <CertificateCard key={cert.id} {...cert} />
           ))}
         </div>
 

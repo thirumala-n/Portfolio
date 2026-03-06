@@ -1,18 +1,47 @@
-export const certificates = [ 
+export const certificates = [
   {
     id: 1,
-    title: "Google Cloud Fundamentals",
-    issuer: "Google Cloud",
-    year: "2024",
-    image: "/assets/certificates/gcp.png",
-    link: "https://www.credly.com/your-link"
+    name: "Modern Programming in C++",
+    issuer: "NPTEL",
+    date: "Oct 2024",
+    theme: "blue",
+    image: "",
+    link: "/certificates/cpp.pdf",
   },
   {
     id: 2,
-    title: "Java Programming",
-    issuer: "Udemy",
-    year: "2024",
-    image: "/assets/certificates/java.png",
-    link: "https://credential-link.com"
-  }
+    name: "Internet of Things",
+    issuer: "NPTEL",
+    date: "Apr 2024",
+    theme: "purple",
+    image: "",
+    link: "/certificates/iot.pdf",
+  },
+  {
+    id: 3,
+    name: "Soft Skills",
+    issuer: "NPTEL",
+    date: "Oct 2023",
+    theme: "green",
+    image: "",
+    link: "/certificates/soft-skills.pdf",
+  },
+  {
+    id: 4,
+    name: "Azure AI Fundamentals (AI-900)",
+    issuer: "Microsoft Azure",
+    date: "Mar 2024",
+    theme: "pink",
+    image: "",
+    link: "/certificates/ai.pdf",
+  },
+  {
+    id: 5,
+    name: "Artificial Intelligence & Machine Learning Internship",
+    issuer: "APSCHE & SmartBridge",
+    date: "Jul 2025",
+    theme: "blue",
+    image: "",
+    link: "/certificates/aiml.pdf",
+  },
 ];
