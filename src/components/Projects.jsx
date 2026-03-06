@@ -7,36 +7,34 @@ function Projects() {
   const [searchTerm, setSearchTerm] = useState("");
 
   const projectsData = [
-    {
-      title: "E-Commerce Website",
-      description:
-        "Full-stack e-commerce platform with user authentication, product management, cart functionality, and payment integration.",
-      tech: ["React", "Node.js", "MongoDB", "Express"],
-      github: "https://github.com/yourusername/project1",
-      demo: "https://demo-link.com",
-      theme: "blue",
-    },
-    {
-      title: "Task Management App",
-      description:
-        "Collaborative task management application with real-time updates, team collaboration features, and deadline tracking.",
-      tech: ["React", "Firebase", "Tailwind CSS"],
-      github: "https://github.com/yourusername/project2",
-      demo: "https://demo-link.com",
-      theme: "purple",
-    },
-    {
-      title: "Weather Dashboard",
-      description:
-        "Interactive weather dashboard displaying real-time weather data, forecasts, and climate statistics using external APIs.",
-      tech: ["JavaScript", "API Integration", "Chart.js"],
-      github: "https://github.com/yourusername/project3",
-      demo: "https://demo-link.com",
-      theme: "green",
-    },
-    
-  ];
-
+  {
+    title: "Portfolio Website",
+    description:
+      "Responsive personal portfolio website showcasing projects, technical skills, and contact information with a clean and user-friendly interface.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/thirumala-n/Portfolio",
+    demo: "https://thirumala-n.github.io/Portfolio",
+    theme: "blue",
+  },
+  {
+    title: "Online Grocery Store Web Application",
+    description:
+      "Full-stack grocery e-commerce platform with product browsing, cart management, wishlist functionality, and secure user authentication.",
+    tech: ["Angular", "Node.js", "Express.js", "MongoDB", "JWT"],
+    github: "https://github.com/thirumala-n/grocery-store-project",
+    demo: "",
+    theme: "green",
+  },
+  {
+    title: "AI & ML Internship Project",
+    description:
+      "Completed a 2-month internship on Artificial Intelligence and Machine Learning, gaining practical exposure to AI concepts, data analysis, and basic machine learning workflows.",
+    tech: ["Python", "Machine Learning", "AI Fundamentals"],
+    github: "",
+    demo: "/certificates/aiml-internship.pdf",
+    theme: "purple",
+  },
+];
   const filteredProjects = projectsData.filter(
     (project) =>
       project.title.toLowerCase().includes(searchTerm.toLowerCase()) ||

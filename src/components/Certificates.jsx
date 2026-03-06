@@ -6,32 +6,38 @@ import "../styles/Certificates.css";
 function Certificates() {
   const [searchTerm, setSearchTerm] = useState("");
 
-  const certificatesData = [
-    {
-      name: "React - The Complete Guide",
-      issuer: "Udemy",
-      date: "January 2024",
-      link: "#",
-    },
-    {
-      name: "Full Stack Web Development",
-      issuer: "Coursera",
-      date: "December 2023",
-      link: "#",
-    },
-    {
-      name: "AWS Cloud Practitioner",
-      issuer: "Amazon Web Services",
-      date: "November 2023",
-      link: "#",
-    },
-    {
-      name: "Python for Data Science",
-      issuer: "edX",
-      date: "October 2023",
-      link: "#",
-    },
-  ];
+ const certificatesData = [
+  {
+    name: "Modern Programming in C++",
+    issuer: "NPTEL",
+    date: "Oct 2024",
+    link: "#",
+  },
+  {
+    name: "Internet of Things",
+    issuer: "NPTEL",
+    date: "Apr 2024",
+    link: "#",
+  },
+  {
+    name: "Soft Skills",
+    issuer: "NPTEL",
+    date: "Oct 2023",
+    link: "#",
+  },
+  {
+    name: "Azure AI Fundamentals (AI-900)",
+    issuer: "Microsoft Azure",
+    date: "Mar 2024",
+    link: "#",
+  },
+  {
+    name: "Artificial Intelligence & Machine Learning Internship",
+    issuer: "APSCHE & SmartBridge",
+    date: "Jul 2025",
+    link: "/certificates/aiml-internship.pdf",
+  },
+];
 
   const filteredCertificates = certificatesData.filter(
     (cert) =>
