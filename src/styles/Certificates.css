@@ -1,0 +1,71 @@
+.certificates {
+  padding: 80px 0;
+  background-color: #f9fafb;
+}
+
+.dark .certificates {
+  background-color: #1f2937;
+}
+
+/* Container */
+.certificates-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  text-align: center;
+}
+
+/* Title */
+.certificates-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.certificates-subtitle {
+  color: #4b5563;
+  margin-bottom: 32px;
+}
+
+.dark .certificates-subtitle {
+  color: #9ca3af;
+}
+
+/* Search */
+.certificates-search {
+  max-width: 400px;
+  margin: 0 auto 40px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: #ffffff;
+  border: 2px solid #d1d5db;
+}
+
+.dark .certificates-search {
+  background: #111827;
+  border-color: #374151;
+}
+
+.certificates-search input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 0.95rem;
+}
+
+/* Grid */
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+/* Empty */
+.certificates-empty {
+  margin-top: 40px;
+  color: #6b7280;
+}

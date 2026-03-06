@@ -1,0 +1,126 @@
+.project-card {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.dark .project-card {
+  background: #111827;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 22px 40px rgba(0, 0, 0, 0.18);
+}
+
+/* Header */
+.project-header {
+  height: 192px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 16px;
+}
+
+/* Theme colors */
+.project-header.blue {
+  background: linear-gradient(135deg, #60a5fa, #2563eb);
+}
+
+.project-header.purple {
+  background: linear-gradient(135deg, #c084fc, #7c3aed);
+}
+
+.project-header.green {
+  background: linear-gradient(135deg, #4ade80, #16a34a);
+}
+
+.project-header.pink {
+  background: linear-gradient(135deg, #f472b6, #db2777);
+}
+
+/* Content */
+.project-content {
+  padding: 24px;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.project-description {
+  color: #4b5563;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.dark .project-description {
+  color: #9ca3af;
+}
+
+/* Tech */
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.project-tag {
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #dbeafe;
+  color: #1e40af;
+  font-size: 0.8rem;
+}
+
+.dark .project-tag {
+  background: #1e3a8a;
+  color: #bfdbfe;
+}
+
+/* Buttons */
+.project-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  color: white;
+  transition: background 0.2s ease;
+}
+
+.btn.code {
+  background: #111827;
+}
+
+.dark .btn.code {
+  background: #374151;
+}
+
+.btn.code:hover {
+  background: #1f2937;
+}
+
+.btn.demo {
+  background: #2563eb;
+}
+
+.btn.demo:hover {
+  background: #1d4ed8;
+}

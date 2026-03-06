@@ -1,0 +1,149 @@
+.education {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+.dark .education {
+  background-color: #111827;
+}
+
+/* Container */
+.education-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  text-align: center;
+}
+
+/* Title */
+.education-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.education-subtitle {
+  color: #4b5563;
+  margin-bottom: 48px;
+}
+
+.dark .education-subtitle {
+  color: #9ca3af;
+}
+
+/* List */
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Card */
+.education-card {
+  padding: 24px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #eff6ff, #f3e8ff);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.2s ease;
+  text-align: left;
+}
+
+.dark .education-card {
+  background: #1f2937;
+}
+
+.education-card:hover {
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+}
+
+/* Header */
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.education-degree {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2563eb;
+  margin-bottom: 8px;
+}
+
+.dark .education-degree {
+  color: #60a5fa;
+}
+
+.education-branch {
+  font-size: 1.1rem;
+  color: #374151;
+}
+
+.dark .education-branch {
+  color: #d1d5db;
+}
+
+.education-institution {
+  color: #6b7280;
+}
+
+.dark .education-institution {
+  color: #9ca3af;
+}
+
+/* Meta */
+.education-meta {
+  text-align: right;
+}
+
+.education-year {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #6b7280;
+}
+
+.dark .education-year {
+  color: #9ca3af;
+}
+
+.education-cgpa {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2563eb;
+  margin-top: 8px;
+}
+
+.dark .education-cgpa {
+  color: #60a5fa;
+}
+
+/* Coursework */
+.education-coursework {
+  margin-top: 20px;
+}
+
+.coursework-title {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.coursework-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.coursework-tag {
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #ffffff;
+  font-size: 0.85rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dark .coursework-tag {
+  background: #374151;
+  color: #e5e7eb;
+}
