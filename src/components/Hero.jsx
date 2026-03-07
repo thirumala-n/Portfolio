@@ -10,7 +10,7 @@ function Hero() {
         <h1 className="hero-title">Thirumala</h1>
 
         <p className="hero-subtitle">
-          3rd Year B.Tech Student | Full Stack Developer
+          3rd Year B.Tech CSE Student | Full Stack Developer
         </p>
 
         <p className="hero-description">
