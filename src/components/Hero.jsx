@@ -47,11 +47,11 @@ function Hero() {
         </div>
 
         <div className="hero-social">
-          <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">
+          <a href="https://github.com/thirumala-n" target="_blank" rel="noreferrer">
             <Github size={24} />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/thirumala-n"
             target="_blank"
             rel="noreferrer"
           >
