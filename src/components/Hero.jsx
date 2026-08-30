@@ -7,15 +7,19 @@ function Hero() {
       <div className="hero-container">
         <div className="avatar">T</div>
 
-        <h1 className="hero-title">Thirumala</h1>
+        <h1 className="hero-title">Thirumala Nemberu</h1>
 
         <p className="hero-subtitle">
-          3rd Year B.Tech CSE Student | Full Stack Developer
+          Software Engineer | Java Backend Developer
         </p>
 
         <p className="hero-description">
-          Passionate full-stack developer with a strong foundation in programming and experience building web applications using both frontend and backend technologies. Continuously learning, developing projects, and adapting to new technologies while collaborating effectively in team environments.
-          </p>
+          I build backend-focused, full-stack applications using Java and Spring Boot, with experience in REST APIs, secure authentication, database-driven systems, and real-time features.
+        </p>
+
+        <p className="hero-tech-line">
+          Spring Boot · Spring Security · JPA · WebSockets · MySQL
+        </p>
 
         <div className="hero-buttons">
           <button
@@ -57,7 +61,7 @@ function Hero() {
           >
             <Linkedin size={24} />
           </a>
-          <a href="mailto:your.email@example.com">
+          <a href="mailto:nthirumala2274@gmail.com">
             <Mail size={24} />
           </a>
         </div>

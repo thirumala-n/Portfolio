@@ -99,7 +99,17 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+  .skills {
+    padding: 60px 0;
+  }
+
   .skills-title {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
   }
 }

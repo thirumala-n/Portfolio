@@ -93,7 +93,8 @@
 /* Social links */
 .contact-social {
   display: flex;
-  gap: 16px;
+  flex-wrap: wrap;
+  gap: 12px;
   margin-top: 16px;
 }
 
@@ -186,4 +187,15 @@
   margin-top: 12px;
   color: #dc2626;
   font-weight: 600;
+}
+
+/* ========== CONTACT MOBILE RESPONSIVE ========== */
+@media (max-width: 768px) {
+  .contact {
+    padding: 60px 0;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
 }

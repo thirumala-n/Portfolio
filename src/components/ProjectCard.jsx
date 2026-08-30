@@ -22,25 +22,29 @@ function ProjectCard({ title, description, tech, github, demo, theme }) {
         </div>
 
         <div className="project-actions">
-          <a
-            href={github}
-            target="_blank"
-            rel="noreferrer"
-            className="btn code"
-          >
-            <Github size={18} />
-            Code
-          </a>
+          {github && (
+            <a
+              href={github}
+              target="_blank"
+              rel="noreferrer"
+              className="btn code"
+            >
+              <Github size={18} />
+              Code
+            </a>
+          )}
 
-          <a
-            href={demo}
-            target="_blank"
-            rel="noreferrer"
-            className="btn demo"
-          >
-            <ExternalLink size={18} />
-            Demo
-          </a>
+          {demo && (
+            <a
+              href={demo}
+              target="_blank"
+              rel="noreferrer"
+              className="btn demo"
+            >
+              <ExternalLink size={18} />
+              Demo
+            </a>
+          )}
         </div>
       </div>
     </div>

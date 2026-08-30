@@ -60,7 +60,7 @@
 /* Grid */
 .certificates-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
   gap: 24px;
 }
 
@@ -68,4 +68,25 @@
 .certificates-empty {
   margin-top: 40px;
   color: #6b7280;
+}
+
+/* ========== CERTIFICATES MOBILE RESPONSIVE ========== */
+@media (max-width: 768px) {
+  .certificates {
+    padding: 60px 0;
+  }
+
+  .certificates-title {
+    font-size: 2rem;
+  }
+
+  .certificates-search {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .certificates-grid {
+    grid-template-columns: 1fr;
+  }
 }

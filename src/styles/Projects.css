@@ -60,7 +60,7 @@
 /* Grid */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
   gap: 32px;
 }
 
@@ -169,4 +169,25 @@
 .projects-empty {
   margin-top: 40px;
   color: #6b7280;
+}
+
+/* ========== PROJECTS MOBILE RESPONSIVE ========== */
+@media (max-width: 768px) {
+  .projects {
+    padding: 60px 0;
+  }
+
+  .projects-title {
+    font-size: 2rem;
+  }
+
+  .projects-search {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
 }

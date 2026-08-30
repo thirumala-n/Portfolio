@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 :root {
   --primary: #3b82f6;
   --primary-dark: #2563eb;

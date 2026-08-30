@@ -124,3 +124,24 @@
 .btn.demo:hover {
   background: #1d4ed8;
 }
+
+/* ========== PROJECT CARD MOBILE ========== */
+@media (max-width: 480px) {
+  .project-header {
+    height: 140px;
+    font-size: 1.2rem;
+  }
+
+  .project-content {
+    padding: 16px;
+  }
+
+  .project-title {
+    font-size: 1.2rem;
+  }
+
+  .project-actions {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}

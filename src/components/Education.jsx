@@ -6,9 +6,9 @@ function Education() {
     {
       degree: "Bachelor of Technology (B.Tech)",
       branch: "Computer Science Engineering",
-      institution: "Rajeev Gandhi Memorial College Of Engineering And Technology, Nandyal",
+      institution: "Rajeev Gandhi Memorial College of Engineering and Technology, Kurnool",
       year: "2023 - 2027",
-      cgpa: "8.5 / 10",
+      cgpa: "8.0 / 10",
       coursework: [
         "Data Structures",
         "Algorithms",

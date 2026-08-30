@@ -8,30 +8,30 @@ function Projects() {
 
   const projectsData = [
   {
-    title: "Portfolio Website",
+    title: "AI Chat Application",
     description:
-      "Responsive personal portfolio website showcasing projects, technical skills, and contact information with a clean and user-friendly interface.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/thirumala-n/Portfolio",
-    demo: "https://thirumala-n.github.io/Portfolio",
+      "Real-time AI-powered chat application built with Spring AI for conversational responses. Features Spring Security with JWT authentication, role-based access control, WebSockets for real-time bidirectional messaging, and MySQL-backed conversation persistence. Follows Controller-Service-Repository architecture with centralized exception handling.",
+    tech: ["Java 21", "Spring Boot", "Spring AI", "Spring Security", "JWT", "WebSockets", "React", "MySQL"],
+    github: "",
+    demo: "",
     theme: "blue",
   },
   {
-    title: "Online Grocery Store Web Application",
+    title: "RentEasy – House Rental Platform",
     description:
-      "Full-stack grocery e-commerce platform with product browsing, cart management, wishlist functionality, and secure user authentication.",
-    tech: ["Angular", "Node.js", "Express.js", "MongoDB", "JWT"],
-    github: "https://github.com/thirumala-n/grocery-store-project",
+      "Full-stack house rental platform supporting property listing, search, booking, and payment workflows. Implements role-based features for tenants, property owners, and administrators. Integrates Razorpay for payments, Spring Data JPA for entity relationships, and JWT-secured REST APIs with request validation.",
+    tech: ["Java 21", "Spring Boot", "Spring Security", "Spring Data JPA", "JWT", "React", "MySQL", "Razorpay"],
+    github: "",
     demo: "",
     theme: "green",
   },
   {
-    title: "AI & ML Internship Project",
+    title: "RGM Campus Connect",
     description:
-      "Completed a 2-month internship on Artificial Intelligence and Machine Learning, gaining practical exposure to AI concepts, data analysis, and basic machine learning workflows.",
-    tech: ["Python", "Machine Learning", "AI Fundamentals"],
+      "Centralized campus platform for student communities, placement updates, events, posts, and messaging. Features real-time notifications using WebSockets, Spring Data JPA entity relationships, and transactional service operations with Spring Security and JWT.",
+    tech: ["Java 21", "Spring Boot", "Spring Security", "JWT", "Spring Data JPA", "React", "MySQL", "WebSockets"],
     github: "",
-    demo: "/certificates/aiml-internship.pdf",
+    demo: "",
     theme: "purple",
   },
 ];

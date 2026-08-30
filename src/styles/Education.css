@@ -147,3 +147,33 @@
   background: #374151;
   color: #e5e7eb;
 }
+
+/* ========== EDUCATION MOBILE RESPONSIVE ========== */
+@media (max-width: 768px) {
+  .education {
+    padding: 60px 0;
+  }
+
+  .education-title {
+    font-size: 2rem;
+  }
+
+  .education-degree {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .education-header {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .education-meta {
+    text-align: left;
+  }
+
+  .education-year {
+    justify-content: flex-start;
+  }
+}
